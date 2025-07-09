@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# 🚀 Affordmed URL Shortener
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A responsive, client-side URL Shortener web app built with **React** and **Material UI**. Built for the Affordmed Campus Hiring Evaluation, this app allows users to shorten multiple URLs with optional validity and custom shortcodes, and provides session-based click analytics.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 📸 Screenshot
 
-### `npm start`
+> Add a real screenshot of your working homepage here  
+Example placeholder:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Homepage Screenshot](https://via.placeholder.com/800x400?text=Affordmed+URL+Shortener+Homepage)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 📋 Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- 🔗 Shorten up to **5 URLs** concurrently
+- ✏️ Support for **custom shortcodes** and **validity periods**
+- ⏳ Default validity set to **30 minutes** if not specified
+- 🔄 Real-time **redirect handling** from client-side routing
+- 📊 **Click analytics**: timestamp, source, and location (dummy)
+- 💾 Persistent session storage using `localStorage`
+- 🧩 **Custom logging middleware** (no `console.log`)
+- 🎨 Fully styled using **Material UI**
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🧰 Tech Stack
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- React 19
+- Material UI 7
+- React Router 7
+- UUID for logging keys
+- Browser `localStorage`
+- Custom middleware for activity logging
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🗂️ Project Structure
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+affordmed-url-shortener/
+├── public/
+│ └── index.html
+├── src/
+│ ├── components/
+│ │ ├── HomePage.jsx
+│ │ ├── StatsPage.jsx
+│ │ └── RedirectPage.jsx
+│ ├── utils/
+│ │ ├── logger.js
+│ │ └── helpers.js
+│ ├── App.jsx
+│ ├── index.js
+│ └── styles.css
+├── package.json
+└── README.md
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## ⚙️ Installation & Setup
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/affordmed-url-shortener.git
+   cd affordmed-url-shortener
