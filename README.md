@@ -1,4 +1,4 @@
-# 🚀 Affordmed URL Shortener
+# 🚀URL Shortener
 
 A responsive, client-side URL Shortener web app built with **React** and **Material UI**. Built for the Affordmed Campus Hiring Evaluation, this app allows users to shorten multiple URLs with optional validity and custom shortcodes, and provides session-based click analytics.
 
