@@ -9,7 +9,7 @@ A responsive, client-side URL Shortener web app built with **React** and **Mater
 > Add a real screenshot of your working homepage here  
 Example placeholder:
 
-![Homepage Screenshot](https://via.placeholder.com/800x400?text=Affordmed+URL+Shortener+Homepage)
+![Homepage Screenshot](https://github.com/Niraj-Hitpump/affordmed-url-shortener/blob/master/public/hero.png)
 
 ---
 
@@ -38,23 +38,6 @@ Example placeholder:
 ---
 
 ## 🗂️ Project Structure
-
-affordmed-url-shortener/
-├── public/
-│ └── index.html
-├── src/
-│ ├── components/
-│ │ ├── HomePage.jsx
-│ │ ├── StatsPage.jsx
-│ │ └── RedirectPage.jsx
-│ ├── utils/
-│ │ ├── logger.js
-│ │ └── helpers.js
-│ ├── App.jsx
-│ ├── index.js
-│ └── styles.css
-├── package.json
-└── README.md
 
 
 ## ⚙️ Installation & Setup
