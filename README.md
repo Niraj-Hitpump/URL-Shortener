@@ -33,7 +33,7 @@ Example placeholder:
 - React Router 7
 - UUID for logging keys
 - Browser `localStorage`
-- Custom middleware for activity logging
+- Custom middleware for activity logging.
 
 ---
 
